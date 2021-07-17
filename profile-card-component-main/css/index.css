@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.obj{
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 100px;
+    height: 100px;
+}
+.Victor{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%);
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .age{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}    */
+.London{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.public{
+    position: absolute;
+    top: 183%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 348px;
+    height: 260px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.pass{
+    display: flex;
+    position: absolute;
+    top: 65%;
+    border-top: gray 1px solid;
+    width: 100%;
+}
+.number_likes {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    left: 35px;
+    top: -18px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.number_followers{
+    font-size: 10px;
+    position: relative;
+    left: 20px;
+    top: -18px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.number_photos{
+    font-size: 10px;
+    position: relative;
+    left: 45px;
+    top: -18px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.followers {
+    position: relative;
+    left: 35px;
+    top: -60px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.likes{
+    position: relative;
+    left: 70px;
+    top: -60px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.photos{
+    position: relative;
+    left: 70px;
+    top: -60px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fl:hover{
+    transition: .3s linear ;
+    transform: scale(1.1);
+    color: turquoise;
+}
+.pht:hover{
+    transition: .3s linear ;
+    transform: scale(1.1);
+    color: turquoise;
+}
+.lk:hover{
+    transition: .3s linear ;
+    transform: scale(1.1);
+    color: turquoise;
+}
+
+
+
+.attribution{
+    position: absolute;
+    top: 120%;
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.lil{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: aqua;
+}
+.sss{
+    text-decoration: none;
+    color: black;
+}
